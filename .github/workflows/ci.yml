@@ -20,6 +20,8 @@ jobs:
            run: pip install -r requirements.txt
 
          - name: Unit Tests
+           env:
+             PYTHONPATH: .
            run: pytest
 
          - name: Docker Build Validation
