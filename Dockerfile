@@ -1,7 +1,4 @@
-From python:3.10-slim
-
-LABEL org.opencontainers.image.source="https://github.com/SaifullahKhanSafi/student-ml-api"
-LABEL org.opencontainers.image.version="1.0.0"
+From python:3.12-slim
 
 WORKDIR /app
 
